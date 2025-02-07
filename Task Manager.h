@@ -16,11 +16,9 @@ private:
     string date;
 
 public:
-    // Constructor
     Task();
     Task(string title, string desc, int prio, string status, string date);
 
-    // Setters for Task
     void setDate(string newDate);
     void setTitle(string newTitle);
     void setPriority(int newPriority);
@@ -28,7 +26,6 @@ public:
     void setDescription(const string &newDescription);
     void setStatus(const string &newStatus);
 
-    // Getters for Task
     int getId() const;
     string getTitle() const;
     string getDescription() const;
@@ -80,11 +77,7 @@ public:
     void showTasksByPriority() const;
     void showAllTasks() const;
 };
-#include "Task Manager.h"
-#include <iostream>
-#include <cstring>
-using namespace std ;
-// Task constructor
+
 Task::Task(string title, string desc, int prio, string status, string date){
     this->id = general_id++ ;
     setTitle(title) ;
