@@ -1,9 +1,8 @@
 #ifndef TASKMANAGER_H
 #define TASKMANAGER_H
-#include <string.h>
+#include <string>
 #include "Priority Queue.h"
 #include"Linked List.h"
-#include <vector>
 using namespace std;
 
 class Task {
