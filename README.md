@@ -18,4 +18,9 @@ A simple task management system built using Object-Oriented Programming (OOP) pr
 ## Installation
 
 1. **Clone the project**:
-2. **Open the project as cmake project on clion**
+2. **Open the project in CLion as a CMake project.**
+
+
+## File Structure
+
+Task-Management-System/ │── src/ │ ├── User.h │ ├── Task.h │ ├── LinkedList.h │ ├── User.cpp │ ├── Task.cpp │ ├── LinkedList.cpp │── main.cpp │── 
