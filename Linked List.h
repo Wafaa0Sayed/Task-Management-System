@@ -31,11 +31,10 @@ template <typename T>
 typename LinkedList<T>::Node* LinkedList<T>::getHead() const {
     return head;
 }
-// Constructor
+
 template <typename T>
 LinkedList<T>::LinkedList() : head(nullptr), size(0) {}
 
-// Destructor
 template <typename T>
 LinkedList<T>::~LinkedList() {
     while (head) {
