@@ -43,12 +43,3 @@ A simple task management system built using Object-Oriented Programming (OOP) pr
 1. **Clone the project**:
 2. **Open the project as cmake project on clion**
 
-## File Structure
-
-Task-Management-System/ │── src/ │ ├── User.h
-│ ├── Task.h
-│ ├── LinkedList.h
-│ ├── User.cpp
-│ ├── Task.cpp
-│ ├── LinkedList.cpp
-│── main.cpp
